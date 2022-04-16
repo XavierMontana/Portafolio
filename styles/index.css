@@ -1,0 +1,177 @@
+/* Eliminar valores establecidos */
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body
+{
+  background-image: url(./assets/images/space.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: monospace;
+  color: rgb(194, 194, 194);
+}
+
+
+/* Menu navegación */
+.contenedor_nav
+{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 0px;
+}
+
+
+.menu-navegacion
+{
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.enlaces li
+{
+  list-style: none;
+  display: inline-block;
+}
+
+.enlaces a 
+{
+  text-decoration: none;
+  color: rgb(194, 194, 194);
+  font-size: 18px;
+  padding: 0px 10px;
+}
+
+.enlaces a:hover
+{
+  color: white;
+}
+
+
+.test
+{
+  position: relative;
+  float: left;
+  width: 18px;
+  height: auto;
+}
+
+
+
+
+
+/*Configuracion*/
+
+.config_contenedor
+{
+  padding: 0px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  height: 70px;
+}
+
+/* Texto cambiante */
+
+.container
+{
+  height: 100%;
+  width: 100%;
+}
+
+.text
+{
+  font-weight: 100;
+  font-size: 80px;
+  color: rgb(194, 194, 194);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.dud
+{
+  color: #757575;
+}
+
+/* Trabajos  info */
+
+.informacion
+{
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.titulo-trabajos
+{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 50px;
+  color: rgb(194, 194, 194);
+}
+
+.descripcion-trabajos
+{
+  text-align: justify;
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+  word-spacing: 5px;
+  line-height: 25px;
+  font-size: 18px;
+  color: rgb(194, 194, 194);
+}
+
+
+
+/* Más de mi */ 
+
+.title
+{
+  font-size: 25px;
+  text-align: center;
+  margin: 60px;
+  color: rgb(194, 194, 194);
+}
+
+.imgcon
+{
+  /*filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);*/
+  filter:invert(100%)
+}
+
+
+.conocimientos
+{
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.conocimientos li
+{
+  margin: 5px;
+}
+
+.conocimientos img
+{
+  width: 100px;
+  height: 180px;
+}
